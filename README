@@ -1,0 +1,6 @@
+The code can be compiled with javac standalone using the following commands in the root directory of the project:
+mkdir bin
+javac -d bin -sourcepath src src/sokobangame/*.java
+
+The application can then be started with
+java -cp bin sokobangame.ApplicationFrame
